@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://femc-order-summary-card.netlify.app/)
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/responsive-order-summary-card-wMt1l95W1D)
+- Live Site URL: [Click Here](https://femc-order-summary-card.netlify.app/)
 
 ## My process
 
