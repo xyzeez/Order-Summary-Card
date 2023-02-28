@@ -1,16 +1,16 @@
 # Frontend Mentor - Order summary card solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-- [Author](#author)
+  - [Useful resources](#useful-resources)
+  - [Author](#author)
 
 ## Overview
 
@@ -22,22 +22,29 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Web%20Screenshot.png)
-![](./images/Mobile-View%20Screenshot.png)
+![](./images/screenshots/desktop.png)
+
+![](./images/screenshots/mobile.png)
 
 
 ### Links
 
-- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/responsive-order-summary-card-wMt1l95W1D)
-- Live Site URL: [Click Here](https://femc-order-summary-card.netlify.app/)
+- Solution URL: [URL here](https://www.frontendmentor.io/solutions/responsive-order-summary-card-wMt1l95W1D)
+- Live Site URL: [URL here](https://order-summary-card-femc.netlify.app/)
 
 ## My process
 
 ### Built with
 
+- Mobile-first approach
 - Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
+- Grid
+
+### Useful resources
+
+- [Box Shadow CSS Generator](https://shadows.brumm.af/)
+- [Animating Underlines](https://css-irl.info/animating-underlines/)
 
 ## Author
 
