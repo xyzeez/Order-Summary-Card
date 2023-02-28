@@ -130,8 +130,9 @@ h2 {
 .pricebtn {
     font-size: 0.9375rem;
     font-weight: 700;
+    text-decoration: underline 1px hsl(245, 75%, 52%);
     color: hsl(245, 75%, 52%);
-    transition: color 0.5s ease;
+    transition: color 0.5s ease, text-decoration-color 0.5s;
 }
 
 button {
@@ -173,7 +174,7 @@ button {
     }
 
     .pricebtn:hover {
-        text-decoration: none;
+        text-decoration-color: hsla(0, 0%, 0%, 0);
         cursor: pointer;
         color: hsla(245, 75%, 52%, 0.8);
     }
