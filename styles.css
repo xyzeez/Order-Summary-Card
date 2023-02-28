@@ -1,169 +1,203 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
 *, *::before, *::after {
     box-sizing: border-box;
-}
+  }
+  
+  * {
+    margin: 0;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+    
+    /*
+    CSS Reset ends
+  */
 
 * {
-    margin: 0;
     font-family: 'Red Hat Display', sans-serif;
 }
 
-html, body {
-    height: 100%;
+p, a {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
 }
 
 body {
-    line-height: 1.5;
-}
-
-body {
-    -webkit-font-smoothing: antialiased;
-}
-
-img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-}
-
-input, button, textarea, select {
-    font: inherit;
-}
-
-p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-}
-
-body {
-    background: hsl(225, 100%, 94%) url(/images/pattern-background-desktop.svg) no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
     background-size: contain;
     display: grid;
     place-content: center;
+    height: auto;
+    min-height: 100vh;
+    padding: 20px;
 }
 
 .card {
     width: 100%;
     max-width: 400px;
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
-    display: flex;
-    flex-direction: column;
     overflow: hidden;
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.006),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.010),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.014),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.018),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.022),
+        100px 100px 80px rgba(0, 0, 0, 0.03);
+    animation: entrance 0.6s ease-in;
+    
 }  
 
-img {
+.img {
     width: 100%;
+    height: auto;
 }
 
 .txt {
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 30px;
+    display: grid;
+    place-content: center;
+    padding: 25px; 
 }
 
 h1 {
+    font-size: 1.5rem;
+    text-align: center;
     font-weight: 900;
-}
-
-p {
-    font-weight: 500;
-    font-size: 1rem;
-    color: hsl(224, 23%, 55%);
+    margin-bottom: 15px;
+    color: hsl(223, 47%, 23%);
 }
 
 .ph1 {
-    text-align: center;
+    justify-self: center;
+    max-width: 95%;
+    margin-bottom: 20px;
 }
 
 .price {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
-    background-color: hsl(225, 100%, 98%);
     padding: 15px;
+    margin-bottom: 20px;
     border-radius: 10px;
+    background-color: hsla(225, 100%, 98%, 0.8);
 }
 
 .price-left {
     display: flex;
-    align-items: center;
-    column-gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-i {
-    font-size: 25px;
-    color: hsl(224, 23%, 55%);
-    background-color: hsl(225, 100%, 94%);
-    padding: 20px;
-    border-radius: 50%;
+.icon {
+    margin-right: 20px;
+    transition: transform 0.45s;
 }
 
 h2 {
-    font-size: 16px;
-}
-
-.pricep {
-    text-decoration: underline;
+    font-size: 1rem;
+    font-weight: 900;
     color: hsl(223, 47%, 23%);
 }
 
-.pricep:hover {
-    text-decoration: none;
-    color: hsl(224, 23%, 55%);
-    cursor: pointer;
+.pricebtn {
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+    transition: color 0.5s ease;
 }
 
 button {
     width: 100%;
-    border: none;
-    background-color: hsl(245, 75%, 52%);
-    color: white;
-    font-size: 16px;
-    padding: 20px;
+    font-size: 1rem;
+    color: hsl(0, 0%, 100%);
+    padding: 15px;
+    margin-bottom: 30px;
     border: none;
     border-radius: 10px;
-    box-shadow: 1px 15px 50px hsl(224, 23%, 55%);
+    background-color: hsl(245, 75%, 52%);
+    transition: background-color 0.5s ease;
+    box-shadow:
+        0px 2.8px 2.2px rgba(56, 41, 224, 0.031),
+        0px 6.7px 5.3px rgba(56, 41, 224, 0.044),
+        0px 12.5px 10px rgba(56, 41, 224, 0.055),
+        0px 22.3px 17.9px rgba(56, 41, 224, 0.066),
+        0px 41.8px 33.4px rgba(56, 41, 224, 0.077),
+        0px 100px 80px rgba(56, 41, 224, 0.013);
 }
 
-button:hover {
-    background-color: hsl(224, 23%, 55%);
-    cursor: pointer;
+.cancelbtn {
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 900;
+    transition: color 0.5s ease;
 }
 
-.footerp:hover {
-    color: hsl(245, 75%, 52%);
-    cursor: pointer;
-}
-
-button, .priceh1, .pricep, .footerp {
-    font-weight: 700;
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 500px){
     body {
-        background: hsl(225, 100%, 94%) url(/images/pattern-background-mobile.svg) no-repeat;
+        background-image: url(./images/pattern-background-desktop.svg);
+    }
+}
+
+@media (hover: hover) {
+
+    .price:hover .icon{
+        transform: scale(-1, 1);
     }
 
-    .card {
-        width: 100%;
-        max-width: 330px;
+    .pricebtn:hover {
+        text-decoration: none;
+        cursor: pointer;
+        color: hsla(245, 75%, 52%, 0.8);
     }
 
-    .txt {
-        padding: 15px;
+    button:hover {
+        background-color: hsla(245, 75%, 52%, 0.8);
+        cursor: pointer;
     }
 
-    h1 {
-        font-size: 20px;
+    .cancelbtn:hover {
+        color: hsl(245, 75%, 52%);
+        cursor: pointer;
+    }   
+
+}
+
+@keyframes entrance {
+
+    0% {
+        transform: translateY(-200px);
     }
 
-    i {
-        font-size: 16px;
-        padding: 10px;
+    100% {
+        transform: translateY(0px);
     }
-
-    button {
-        padding: 10px;
-    }
-  }
+    
+}
