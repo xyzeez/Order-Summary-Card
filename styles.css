@@ -52,14 +52,14 @@ body {
     place-content: center;
     height: auto;
     min-height: 100vh;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .card {
     width: 100%;
-    max-width: 400px;
+    max-width: 25rem;
     background-color: hsl(0, 0%, 100%);
-    border-radius: 20px;
+    border-radius: 1.25rem;
     overflow: hidden;
     box-shadow:
         2.8px 2.8px 2.2px rgba(0, 0, 0, 0.006),
@@ -80,21 +80,21 @@ body {
 .txt {
     display: grid;
     place-content: center;
-    padding: 25px; 
+    padding: 1.5625rem; 
 }
 
 h1 {
     font-size: 1.5rem;
     text-align: center;
     font-weight: 900;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
     color: hsl(223, 47%, 23%);
 }
 
 .ph1 {
     justify-self: center;
     max-width: 95%;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .price {
@@ -104,9 +104,9 @@ h1 {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 10px;
+    padding: 0.9375rem;
+    margin-bottom: 1.25rem;
+    border-radius: 0.625rem;
     background-color: hsla(225, 100%, 98%, 0.8);
 }
 
@@ -117,7 +117,7 @@ h1 {
 }
 
 .icon {
-    margin-right: 20px;
+    margin-right: 1.25rem;
     transition: transform 0.45s;
 }
 
@@ -128,7 +128,7 @@ h2 {
 }
 
 .pricebtn {
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 700;
     color: hsl(245, 75%, 52%);
     transition: color 0.5s ease;
@@ -138,10 +138,10 @@ button {
     width: 100%;
     font-size: 1rem;
     color: hsl(0, 0%, 100%);
-    padding: 15px;
-    margin-bottom: 30px;
+    padding: 0.9375rem;
+    margin-bottom: 1.875rem;
     border: none;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     background-color: hsl(245, 75%, 52%);
     transition: background-color 0.5s ease;
     box-shadow:
@@ -154,13 +154,13 @@ button {
 }
 
 .cancelbtn {
-    font-size: 15px;
+    font-size: 0.9375rem;
     text-decoration: none;
     font-weight: 900;
     transition: color 0.5s ease;
 }
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 31.25rem){
     body {
         background-image: url(./images/pattern-background-desktop.svg);
     }
@@ -193,7 +193,7 @@ button {
 @keyframes entrance {
 
     0% {
-        transform: translateY(-200px);
+        transform: translateY(-12.5rem);
     }
 
     100% {
