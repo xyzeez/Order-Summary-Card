@@ -1,38 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="styles.css" />
         <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/52582c7c01.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="card">
-            <div class="img">
-                <img alt="header-svg" src="./images/illustration-hero.svg"/>
-            </div>
-            <div class="txt">
+        <main class="card">
+            <img class="img" src="./images/illustration-hero.svg" alt="">
+            <section class="txt">
                 <h1>Order Summary</h1>
                 <p class="ph1">
                     You can now listen to millions of songs, audiobooks, and podcasts on any 
                     device anywhere you like!
                 </p>
-                <section class="price">
+                <div class="price">
                     <div class="price-left">
-                        <i class="fa-solid fa-music"></i>
-                        <span class="price-txt">
-                           <h2 class="priceh1">Annual Plan</h2>
-                           <p class="spanp">$59.99/year</p>
-                        </span>
+                        <img class="icon" src="./images/icon-music.svg" alt="">
+                        <div class="price-txt">
+                            <h2>Annual Plan</h2>
+                            <p class="pricep">$59.99/year</p>
+                        </div>
                     </div>
-                    <div class="price-right">
-                        <p class="pricep">Change</p>
-                    </div>
-                </section>
-                <button>Proceed to Payment</button>
-                <p class="footerp">Cancel Order</p>
-            </div>
-        </div>
+                    <a href="#" class="pricebtn">Change</a>
+                </div>
+                <button class="btn">Proceed to Payment</button>
+                <a href="#" class="cancelbtn">Cancel Order</a>
+            </section>
+        </main>
     </body>
 </html>
