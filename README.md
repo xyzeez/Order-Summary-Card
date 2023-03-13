@@ -1,12 +1,14 @@
 # Frontend Mentor - Order summary card solution
 
+![](./images/screenshots/desktop.png)
+
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
   - [Links](#links)
+  - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
@@ -20,17 +22,17 @@ Users should be able to:
 
 - See hover states for interactive elements
 
-### Screenshot
-
-![](./images/screenshots/desktop.png)
-
-![](./images/screenshots/mobile.png)
-
-
 ### Links
 
 - Solution URL: [URL here](https://www.frontendmentor.io/solutions/responsive-order-summary-card-wMt1l95W1D)
 - Live Site URL: [URL here](https://order-summary-card-femc.netlify.app/)
+
+### Screenshot
+
+- [Desktop](./images/screenshots/desktop.png)
+
+- [Mobile](./images/screenshots/mobile.png)
+
 
 ## My process
 
